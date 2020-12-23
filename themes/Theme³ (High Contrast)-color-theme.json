@@ -687,6 +687,25 @@
 			"settings": {
 				"foreground": "#30bced"
 			}
+		},
+		// yml
+		{
+			"scope": ["source.yaml constant"],
+			"settings": {
+				"foreground": "#ef476f"
+			}
+		},
+		{
+			"scope": ["source.yaml string.unquoted"],
+			"settings": {
+				"foreground": "#06d6a0"
+			}
+		},
+		{
+			"scope": ["source.yaml entity.name.tag.yaml"],
+			"settings": {
+				"foreground": "#30bced"
+			}
 		}
 	],
 	"type": "dark"
