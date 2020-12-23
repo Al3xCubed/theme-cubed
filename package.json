@@ -1,0 +1,38 @@
+{
+	"publisher": "Al3xCubed",
+	"name": "themecubed",
+	"repository": {
+		"url": "https://github.com/Al3xCubed/extension-cubed.git"
+	},
+	"displayName": "Extension³",
+	"description": "Contains a theme like Atom One Dark Pro, but with different highlight colors. It also contains a few language injections.",
+	"version": "0.1.0",
+	"engines": {
+		"vscode": "^1.41.0"
+	},
+	"categories": [
+		"Themes",
+		"Programming Languages"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Theme³ (High Contrast)-color-theme.json",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Theme³ (High Contrast)-color-theme.json"
+			},
+			{
+				"label": "Theme³",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Theme³-color-theme.json"
+			}
+		],
+		"grammars": [
+			{
+				"path": "./syntaxes/cs.json",
+				"language": "csharp",
+				"scopeName": "source.cs"
+			}
+		]
+	}
+}
