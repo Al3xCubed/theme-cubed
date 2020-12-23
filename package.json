@@ -6,7 +6,7 @@
 	},
 	"displayName": "Extension³",
 	"description": "Contains a theme like Atom One Dark Pro, but with different highlight colors. It also contains a few language injections.",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.41.0"
 	},
