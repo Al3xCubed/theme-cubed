@@ -498,12 +498,6 @@
 			}
 		},
 		{
-			"scope": "meta.template.expression.js",
-			"settings": {
-				"fontStyle": "italic"
-			}
-		},
-		{
 			"scope": "meta.brace.round.js",
 			"settings": {
 				"foreground": "#99aab5"
