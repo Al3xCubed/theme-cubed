@@ -411,15 +411,39 @@
 				"fontStyle": "italic"
 			}
 		},
-		// html
+		// jsx, tsx
 		{
-			"scope": "entity.name.tag.html",
+			"scope": ["entity.name.tag.tsx", "entity.name.tag.jsx"],
 			"settings": {
 				"foreground": "#30bced"
 			}
 		},
 		{
-			"scope": "entity.other.attribute-name.html",
+			"scope": ["entity.other.attribute-name.tsx", "entity.other.attribute-name.jsx"],
+			"settings": {
+				"foreground": "#06d6a0"
+			}
+		},
+		{
+			"scope": [
+				"storage.type.tsx",
+				"storage.type.function.tsx",
+				"storage.type.jsx",
+				"storage.type.function.jsx"
+			],
+			"settings": {
+				"foreground": "#ef476f"
+			}
+		},
+		// html
+		{
+			"scope": ["entity.name.tag.html"],
+			"settings": {
+				"foreground": "#30bced"
+			}
+		},
+		{
+			"scope": ["entity.other.attribute-name.html"],
 			"settings": {
 				"foreground": "#06d6a0"
 			}
