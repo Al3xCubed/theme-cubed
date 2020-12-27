@@ -39,11 +39,11 @@ jobs:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ${{ format('themecubed-{0}.vsix', steps.get_version.outputs.result) }}
           asset_name: ${{ format('themecubed-{0}.vsix', steps.get_version.outputs.result) }}
-      - name: Deploy Extension
-        uses: actions/checkout@v2
+      - name: Install Project
         run: npm install
+      - name: Publish Extension
         uses: lannonbr/vsce-action@master
         with:
-          args: "publish -p $VSCE_TOKEN"
+            args: "publish -p $VSCE_TOKEN"
         env:
-          VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
+            VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
