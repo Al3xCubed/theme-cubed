@@ -1,0 +1,46 @@
+{
+	"publisher": "Al3xCubed",
+	"name": "theme-cubed",
+	"repository": {
+		"url": "https://github.com/Al3xCubed/theme-cubed.git"
+	},
+	"displayName": "Theme³",
+	"description": "Dark theme with vibrant colors",
+	"icon": "images/icon.png",
+	"keywords": [
+		"dark",
+		"theme",
+		"cubed",
+		"alex"
+	],
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.41.0"
+	},
+	"scripts": {
+		"create-vsix": "vsce package --githubBranch main"
+	},
+	"categories": [
+		"Themes",
+		"Programming Languages"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Theme³",
+				"uiTheme": "vs-dark",
+				"path": "./themes/theme-cubed-color-theme.json"
+			}
+		],
+		"grammars": [
+			{
+				"path": "./syntaxes/cs.json",
+				"language": "csharp",
+				"scopeName": "source.cs"
+			}
+		]
+	},
+	"devDependencies": {
+		"vsce": "^1.83.0"
+	}
+}
