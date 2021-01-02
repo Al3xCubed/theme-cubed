@@ -58,7 +58,7 @@
 		"list.warningForeground": "#ff8360",
 		"menu.foreground": "#c8c8c8",
 		"peekViewEditor.background": "#1b1d23",
-		"peekViewEditor.matchHighlightBackground": "#29244b",
+		"peekViewEditor.matchHighlightBackground": "#67769680",
 		"peekViewResult.background": "#22262b",
 		"scrollbarSlider.activeBackground": "#747d9180",
 		"scrollbarSlider.background": "#4e566660",
