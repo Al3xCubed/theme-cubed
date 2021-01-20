@@ -507,6 +507,13 @@
 			}
 		},
 		{
+			"scope": "source.vue support.class.component.html",
+			"settings": {
+				"foreground": "#30bced",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"scope": "source.vue entity.other",
 			"settings": {
 				"foreground": "#ffd176",
