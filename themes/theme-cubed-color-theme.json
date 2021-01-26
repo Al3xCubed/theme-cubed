@@ -838,6 +838,13 @@
 				"foreground": "#99aab5"
 			}
 		},
+		{
+			"scope": ["source.python support.function.builtin"],
+			"settings": {
+				"foreground": "#06d6a0",
+				"fontStyle": "bold"
+			}
+		},
 		// go
 		{
 			"scope": ["source.go"],
