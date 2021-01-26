@@ -837,6 +837,19 @@
 			"settings": {
 				"foreground": "#99aab5"
 			}
+		},
+		// go
+		{
+			"scope": ["source.go"],
+			"settings": {
+				"foreground": "#30bced"
+			}
+		},
+		{
+			"scope": ["source.go support.function"],
+			"settings": {
+				"foreground": "#06d6a0"
+			}
 		}
 	],
 	"type": "dark"
