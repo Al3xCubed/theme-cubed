@@ -821,7 +821,7 @@
 			}
 		},
 		{
-			"scope": ["source.python punctuation.separator.annotation"],
+			"scope": ["source.python punctuation.separator.annotation.result"],
 			"settings": {
 				"foreground": "#ef476f"
 			}
