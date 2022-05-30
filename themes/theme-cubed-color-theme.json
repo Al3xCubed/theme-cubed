@@ -663,6 +663,23 @@
 				"fontStyle": ""
 			}
 		},
+		// latex
+		{
+			"scope": [
+				"text.tex.latex support.function"
+			],
+			"settings": {
+				"foreground": "#ef476f"
+			}
+		},
+		{
+			"scope": [
+				"text.tex.latex entity.name"
+			],
+			"settings": {
+				"foreground": "#ff8360"
+			}
+		},
 		// php
 		{
 			"scope": [
